@@ -50,7 +50,7 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor: pointer;
   background: transparent;
   outline: none;
@@ -61,7 +61,6 @@ a {
   border-radius: 20px;
   transition: all 0.3s ease;
 }
-
 @media screen and (max-width: 900px) {
   .category-btn {
     margin: 10px;
